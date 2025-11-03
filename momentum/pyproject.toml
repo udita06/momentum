@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "momentum"
+version = "0.1.0"
+description = "A productivity app with a to-do list, focus sounds, and progress tracking."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = "^1.0.0"
+requests = "^2.25.1"  # For Gemini API integration
+pydantic = "^1.8.2"   # For data validation
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

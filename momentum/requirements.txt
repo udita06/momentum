@@ -1,0 +1,6 @@
+streamlit
+gemini-api
+pandas
+numpy
+pygame
+dotenv
